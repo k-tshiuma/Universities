@@ -1,0 +1,77 @@
+.menu-bar{
+    background-color: rgb(0, 100, 0);
+    text-align: center;
+    z-index: 999;
+}
+/* step 4 style the menu */
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+/* step 5 go to html and add <a></a> tag to all menu li */
+/* step 6 style the a tags */
+/* remove text underline with text-decoration */
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+/* step 7  style active li*/
+.active, .menu-bar ul li:hover{
+    background-color: #2bab0d;
+    border-radius: 3px;
+}
+.menu-bar .fa{
+    margin-right: 8px;
+}
+/* step 8 add sub menu to About page */
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: rgb(0, 100, 0);
+    margin: 15px 0px 0px -15px;
+}
+/* step 9 align sub menu vertically */
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff ;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+/* step 10 remove dotted line from last sub menu */
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+/* sub menu a:hover */
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: #b2ff00;
+}
+.fa-angle-right{
+    float: right;
+}
+/* step 11 create another sub menu under Marketing and Mobile submenu */
+/* hide submenus */
+.sub-menu-2{
+    display: none;
+}
+/* step 12 display submenu on mouse hover */
+.hover-me:hover .sub-menu-2{
+    position: absolute;
+    display: block;
+    margin: -40px 0px 0px 140px;
+    background: rgb(0, 100, 0) ;
+}

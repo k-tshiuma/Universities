@@ -1,0 +1,138 @@
+{
+  "universities": [
+    {
+        "id": "UMOE-0001",
+        "name": "University Of Addis Ababa",
+        "email": "addisu@uaa.edu",
+        "phone": {
+            "phone-one": "+256 25 22 08 001",
+            "phone-two": "+256 61 00 41 002"
+        },
+        "address": {
+            "number": 12575,
+            "street": "King Haile Selasie",
+            "city" : "Addis Ababa",
+            "province": "Addis Ababa",
+            "zipcode": "5236989"
+        },
+        "region": "center",
+        "imageUrl": "images/u.png",
+        "website":"addis-uni.edu",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "price": "1,500$",
+        "faculties": {
+            "fac-one": "Law",
+            "fac-two": "Computer",
+            "fac-three": "Psychology",
+            "fac-four": "Medecine",
+            "fac-five": "Architecture"
+        }
+    },
+    {
+        "id": "UMOE-0002",
+        "name": "Queen Makeda College",
+        "email": "qmc-university@makeda.edu",
+        "phone": {
+            "phone-one": "+256 54 22 33 789",
+            "phone-two": "+256 00 00 22 790"
+        },
+        "address": {
+            "number": 12575,
+            "street": "Queen Makeda",
+            "city" : "Gambela",
+            "province": "Gambela",
+            "zipcode":"5200989"
+        },
+        "region": "south",
+        "imageUrl": "images/makeda.png",
+        "website":"qmc-makeda.edu",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "price": "500",
+        "faculties": {
+            "fac-one": "Medecine",
+            "fac-two": "Agriculture",
+            "fac-three": "Biology",
+            "fac-four": "Machanics"
+        }
+    },
+    {
+        "id": "UMOE-0003",
+        "name": "Technical College Of Addis Ababa",
+        "email": "addisu@uaa.edu",
+        "phone": {
+            "phone-one": "+256 25 22 08 001",
+            "phone-two": "+256 61 00 41 002"
+        },
+        "address": {
+            "number": 12575,
+            "street": "King Haile Selasie",
+            "city" : "Addis Ababa",
+            "province": "Addis Ababa",
+            "zipcode": "5236989"
+        },
+        "region": "center",
+        "imageUrl": "images/addis.png",
+        "website":"addis-uni.edu",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "price": "1,550$",
+        "faculties": {
+            "fac-two": "Computer",
+            "fac-five": "Architecture"
+        }
+    },
+    {
+        "id": "UMOE-0004",
+        "name": "American College For political studies",
+        "email": "american-college@acps.edu",
+        "phone": {
+            "phone-one": "+256 54 22 33 789",
+            "phone-two": "+256 00 00 22 790"
+        },
+        "address": {
+            "number": 12575,
+            "street": "Queen Makeda",
+            "city" : "Gambela",
+            "province": "Gambela",
+            "zipcode":"5200989"
+        },
+        "region": "south",
+        "imageUrl": "images/america.png",
+        "website":"qmc-makeda.edu",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "price": "750",
+        "faculties": {
+            "fac-one": "Medecine",
+            "fac-two": "Agriculture",
+            "fac-three": "Biology",
+            "fac-four": "Machanics"
+        }
+    },
+    {
+        "id": "UMOE-0005",
+        "name": "Institut Francais D'Addis Ababa",
+        "email": "institut-francais@ifaa.edu",
+        "phone": {
+            "phone-one": "+256 54 22 33 800",
+            "phone-two": "+256 00 00 22 008"
+        },
+        "address": {
+            "number": 10175,
+            "street": "Queen Makeda",
+            "city" : "Gambela",
+            "province": "Gambela",
+            "zipcode":"5233389"
+        },
+        "region": "Center",
+        "imageUrl": "images/ifa.png",
+        "website":"ifaa.edu",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "price": "750",
+        "faculties": {
+            "fac-one": "Lingustics",
+            "fac-two": "Urban Development",
+            "fac-three": "Photography",
+            "fac-four": "Video Editing"
+        }
+    }
+  ]
+}

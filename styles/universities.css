@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.lblname{
+    color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: 22px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#content{
+    position: absolute;
+    left: 400px;
+    width: 1400px;
+}
+.divuniversity{
+    top: 5px;
+    left: 170px;
+    height: 170px;
+    border-bottom: grey solid 1px;
+    width: 1370px;
+}
+.divimg{
+    top: 5px;
+    float: left;
+}
+.uniprofilepix{
+    width: 150px;
+    height: 140px;
+    border: grey solid 1px;
+    border-radius: 5px;
+    margin: 15px 5px 5px 5px;
+}
+
+#centerbar{
+    margin-top: 50px;    
+    height: 100%;
+}
+.btn{
+    width: 150px;
+    height: 35px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 3px;
+    margin: 0px 2px;
+}
+.divbuttons{
+    position: absolute;
+    left: 75%;
+}
+.menutitle{
+    display: block;
+    background-color: green;
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.left-right{
+    position: absolute;
+    top: 130px;
+}
+#navbar{
+    margin-left: 10px;
+}
+/*  */
+.divform{
+    position: absolute;
+    left: 40%;
+    top: 35%;
+}
+.lblform{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: grey;
+}
+.inpform{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: grey;    
+    width: 310px;
+    height: 35px;
+    border: solid grey 1px;
+    border-radius: 5px;
+    margin: 2px;
+}
+.btnform{
+    width: 320px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    font-size: 22px;
+    margin-top: 5px;
+}
